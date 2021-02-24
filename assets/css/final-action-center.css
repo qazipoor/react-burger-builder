@@ -1,0 +1,1555 @@
+/* Service Dash_Action Center_Welcome User */
+.service-dash-action-center-page {
+  background-color: #EFEFEF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  font-family: Raleway;
+  margin: 0 auto;
+  max-width: 1562px;
+  min-width: 1008px;
+  padding: 10px;
+  position: relative;
+}
+.service-dash-action-center-content-container {
+  background-color: #1E1E1E;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+  max-width: 1380px;
+  min-height: 730px;
+  position: relative;
+  width: 100%;
+}
+.sdaccc-welcome-container {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.sdaccc-welcome {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-width: 700px;
+  padding: 50px 0;
+  width: fit-content;
+}
+.sdaccc-welcome-title {
+  align-items: center;
+  background-image: url('../img/icon-action-center-white-big.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
+  height: 62px;
+  padding: 0 0 0 95px;
+}
+.sdaccc-welcome-subtitle {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.vertical-space-30px {
+  height: 30px;
+}
+
+.sdaccc-welcome-horizontal-line {
+  display: grid;
+  grid-template-columns: minmax(90px, auto) 76px 45px 32px 30px 12px 13px 18px 20px 25px 27px 40px;
+  grid-template-rows: 3px;
+}
+.sdaccc-welcome-horizontal-line > div > span {
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: flex;
+  height: 100%;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(1n+2) {
+  justify-content: flex-end;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(2) {
+  width: 62px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(3) {
+  width: 36px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(4) {
+  width: 15px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(5) {
+  width: 15px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(6) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(7) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(8) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(9) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(10) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(11) {
+  width: 4px;
+}
+.sdaccc-welcome-horizontal-line > div:nth-child(12) {
+  width: 4px;
+}
+
+.sdaccc-welcome-message {
+  color: #626262;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.sdaccc-welcome-exit-button button {
+  background-color: transparent;
+  border: 0;
+  color: #626262;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0;
+}
+
+
+/* Service Dash_Action Center_Entering Main Transition */
+.sdaccc-welcome-title-container {
+  display: flex;
+  justify-content: center;
+}
+.sdaccc-entering-main-transition {
+  background-image: linear-gradient(to right, #1E1E1E, #6B6B6B);
+}
+.sdaccc-emt-message {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+/* Service Dash_Action Center_AI Introduce */
+.sdaccc-ai-message {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.sdaccc-ai-ok-setup-button {
+  width: 285px;
+}
+.sdaccc-ai-ok-setup-button button {
+  background-color: transparent;
+  background-image: url('../img/icon-arrow-right-arrow-white.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  border: 0;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Gatherer Selected */
+.sdaccc-gs-confirm-start-button {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  height: 35px;
+  justify-content: center;
+}
+.sdaccc-gs-confirm-start-button button {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 35px;
+  justify-content: center;
+  width: 220px;
+}
+.sdaccc-gs-exit-action-center-button {
+  bottom: 48px;
+  position: absolute;
+  right: 0;
+}
+.sdaccc-gs-exit-action-center-button button {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  color: #7B7B7B;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 35px;
+  justify-content: center;
+  width: 220px;
+}
+
+.sdaccc-role-box-container {
+  align-items: center;
+  background-color: #101010;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .2);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .2);
+  display: flex;
+  height: 585px;
+  justify-content: center;
+  width: 800px;
+}
+.sdaccc-role-box {
+  align-items: center;
+  color: #FDFDFD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 384px;
+}
+.sdaccc-rb-title {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.sdaccc-rb-subtitle {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.sdaccc-rb-description {
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+
+/* Service Dash_Action Center_Select Hunter */
+.sdaccc-discover-role-box-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  width: 100%;
+}
+.sdaccc-discover-role-box {
+  align-items: center;
+  color: #FDFDFD;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 220px;
+  justify-content: space-between;
+  width: 100%;
+}
+.sdaccc-discover-role-box > div:nth-child(2) {
+  justify-content: center;
+}
+.sdaccc-discover-role-box > div:nth-child(3) {
+  justify-content: flex-end;
+}
+.sdaccc-drb-item {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.sdaccc-drb-item-content {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #474747;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #474747;
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  width: 180px;
+}
+.sdaccc-drb-item .selected,
+.sdaccc-drb-item:hover .sdaccc-drb-item-content {
+  background-color: #101010;
+  border: 1px solid #101010;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .5);
+  color: #fff;
+}
+.sdaccc-drbic-header-icon img {
+  height: 70px;
+  width: 70px;
+}
+.sdac-select-role .sdaccc-gs-exit-action-center-button {
+  bottom: 86px;
+}
+
+.sdaccc-drb-next-button {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  width: 180px;
+}
+.sdaccc-drb-next-button button {
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../img/icon-right-arrow-next-white.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  border: 0;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 35px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Select Hunter_4 Roles */
+.sdaccc-discover-role-4-box {
+  align-items: center;
+  color: #FDFDFD;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  grid-auto-rows: 220px;
+  justify-content: space-between;
+  width: 100%;
+  grid-row-gap: 20px;
+}
+.sdaccc-discover-role-4-box > div:nth-child(2) {
+  justify-content: center;
+}
+.sdaccc-discover-role-4-box > div:nth-child(3) {
+  justify-content: flex-end;
+}
+.sdaccc-drb-item {
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.sdac-select-role-4 .sdaccc-welcome {
+  width: 800px;
+}
+.sdac-select-role-4 .sdaccc-discover-role-box-container {
+  height: auto;
+}
+.sdac-select-role-4 .sdaccc-gs-exit-action-center-button {
+  bottom: 91px;
+}
+
+
+/* Service Dash_Action Center_Select Informant Agent */
+.sdaccc-drbicia-header-icon img {
+  height: 52px;
+  width: 70px;
+}
+
+
+/* Service Dash_Action Center_Select Online Agent */
+.sdaccc-drbicsoa-header-icon img {
+  height: 61px;
+  width: 70px;
+}
+
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualification */
+.sdac-important-event .service-dash-action-center-content-container {
+  background-color: #FDFDFD;
+}
+.sdac-tiepp-customer-qualification-container {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.sdac-tiepp-customer-qualification {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 700px;
+  padding: 20px;
+  width: 100%;
+}
+.sdac-tiepp-cq-header {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  width: 100%;
+}
+.sdac-tiepp-cqh-title {
+  align-items: center;
+  background-image: url('../img/icon-action-center-bold-dark.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #2D2D2D;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 42px;
+  padding: 0 0 0 55px;
+}
+.sdac-tiepp-cqh-subtitle {
+  color: #666;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  margin: 0 0 0 10px;
+}
+.sdac-tiepp-cqh-button {
+  flex: 1 1 auto;
+  margin: 0 0 0 20px;
+}
+.sdac-tiepp-cqh-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 38px;
+  padding: 0 0 0 50px;
+  width: 180px;
+}
+.sdac-tiepp-cqh-search-action-task {
+  flex: 0 1 599px;
+  margin: 0 0 0 20px;
+}
+.sdac-tiepp-cqh-search-action-task input {
+  background-color: #fff;
+  border: 2px solid #EFEFEF;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #9B9B9B;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 40px;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.sdac-tiepp-cq-content {
+  background-color: #fff;
+  border: 1px solid #B0B0B0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  margin: 25px 0 0;
+  padding: 30px 20px;
+  position: relative;
+}
+.sdac-tiepp-cqc-close-button {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+.sdac-tiepp-cqc-close-button button {
+  background-color: transparent;
+  border: 0;
+  color: #A2A2A2;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 200px
+}
+.sdac-tiepp-cqs-title {
+  color: #656565;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.sdac-tiepp-cqs-back-button {
+  padding: 0 0 0 10px;
+}
+.sdac-tiepp-cqs-back-button button {
+  background-color: transparent;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  border: 0;
+  color: #7A7A7A;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0 0 0 30px;
+  text-align: left;
+}
+
+.sdac-tiepp-cqc-right-side {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.sdac-tiepp-cqc-rs-header {
+  display: flex;
+}
+.sdac-tiepp-cqc-rsh-title {
+  color: #44646B;
+  flex: 0 0 275px;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-rsh-subtitle {
+  align-self: flex-end;
+  color: #373737;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.sdac-tiepp-cqc-rs-search {
+  height: 59px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-search input {
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #666666;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 59px;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.sdac-tiepp-cqc-rs-most-recent-added-customer-container,
+.sdac-tiepp-cqc-rs-review-by-social-media {
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-mracc-title {
+  color: #7A7A7A;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-mracc-customer-list {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(161px, auto));
+  grid-auto-rows: 35px;
+}
+.sdac-tiepp-cqc-rs-mracc-cl-item button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-right-arrow-dark-narrow.png');
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #2D2D2D;
+  display: flex;
+  height: 100%;
+  padding: 0 30px 0 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.sdac-tiepp-cqc-rs-rbsm-header {
+  align-items: center;
+  display: flex;
+  height: 20px;
+}
+.sdac-tiepp-cqc-rs-rbsmh-title {
+  color: #7A7A7A;
+  flex: 0 0 195px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-rs-rbsmh-subtitle {
+  color: #454545;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-rs-rbsm-list {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(161px, auto));
+  grid-auto-rows: 75px;
+}
+.sdac-tiepp-cqc-rs-rbsm-list > div {
+  align-items: center;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 300;
+}
+.sdac-tiepp-cqc-rs-rbsml-item-facebook {
+  background-color: #315FAF;
+  background-image: url('../img/icon-facebook-sdac.png'), url('../img/icon-arrow-forward-bold-white.png');
+  background-position: 20px, right 15px center;
+  padding: 0 0 0 55px;
+}
+.sdac-tiepp-cqc-rs-rbsml-item-instagram {
+  background-image: url('../img/bg-instagram-sdac.png');
+  background-position: left;
+  background-size: cover;
+  justify-content: space-between;
+  padding: 0 15px 0 55px;
+}
+.sdac-tiepp-cqc-rs-rbsml-item-linkedin {
+  background-color: #258CD8;
+  background-image: url('../img/icon-linkedin-sdac.png'), url('../img/icon-arrow-forward-bold-white.png');
+  background-position: 20px, right 15px center;
+  padding: 0 0 0 55px;
+}
+.sdac-tiepp-cqc-rs-rbsml-item-houzz {
+  background-color: #63D366;
+  background-image: url('../img/icon-houzz-sdac.png'), url('../img/icon-arrow-forward-bold-white.png');
+  background-position: 20px, right 15px center;
+  padding: 0 0 0 55px;
+}
+.sdac-tiepp-cqc-rs-rbsml-item-pinterest {
+  background-color: #E52E2E;
+  background-image: url('../img/icon-pinterest-sdac.png'), url('../img/icon-arrow-forward-bold-white.png');
+  background-position: 20px, right 15px center;
+  padding: 0 0 0 55px;
+}
+
+.sdac-tiepp-cqc-rs-review-customers-by-zillow-records {
+  background-color: #275AFF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rcbzr-header {
+  align-items: center;
+  display: flex;
+  height: 20px;
+}
+.sdac-tiepp-cqc-rs-rcbzrh-title {
+  flex: 0 0 295px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-rcbzrh-subtitle {
+  color: #D3DEFF;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-rcbzr-list {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(161px, auto));
+  grid-auto-rows: 75px;
+}
+.sdac-tiepp-cqc-rs-rcbzr-list > div > button {
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../img/icon-arrow-forward-bold-white.png');
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 300;
+  height: 100%;
+  padding: 0 0 0 25px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualification_Review by Social Media */
+.sdac-preview-by-social-media .sdac-tiepp-cqc-rs-header {
+  align-items: flex-end;
+}
+.sdac-preview-by-social-media .sdac-tiepp-cqc-right-side {
+  margin: 0 0 0 10px;
+}
+.sdac-tiepp-cqc-rsh-customer-qualification-button {
+  flex: 0 1 235px;
+}
+.sdac-tiepp-cqc-rsh-customer-qualification-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 0 0 45px;
+  width: 93%;
+}
+
+.sdac-tiepp-cqc-rs-most-recent-added-customer-container, .sdac-tiepp-cqc-rs-review-by-social-media {
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+.sdac-tiepp-cq-rbsm-list {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  grid-template-columns: repeat(5, minmax(107.8px, 220px));
+  grid-auto-rows: 500px;
+}
+.sdac-tiepp-cq-rbsm-list > div {
+  align-items: center;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 300;
+}
+.sdac-tiepp-cq-rbsml-item-title {
+  align-items: center;
+  display: flex;
+  height: 420px;
+  justify-content: center;
+  text-align: center;
+  width: 110px;
+}
+.sdac-tiepp-cq-rbsml-item-facebook {
+  background-color: #315FAF;
+}
+.sdac-tiepp-cq-rbsml-item-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(20deg, #F57635 0%,#DA3969 25%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  background: -webkit-linear-gradient(20deg, #F57635 0%,#DA3969 25%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  background: linear-gradient(20deg, #F57635 0%,#DA3969 25%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.sdac-tiepp-cq-rbsml-item-linkedin {
+  background-color: #258CD8;
+}
+.sdac-tiepp-cq-rbsml-item-houzz {
+  background-color: #63D366;
+}
+.sdac-tiepp-cq-rbsml-item-pinterest {
+  background-color: #E52E2E;
+}
+.sdac-tiepp-cq-rbsml-item-logo-button {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+}
+.sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  padding: 0 0 0 35px;
+}
+.sdac-tiepp-cq-rbsml-item-facebook .sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-image: url('../img/icon-facebook-sdac.png');
+}
+.sdac-tiepp-cq-rbsml-item-instagram .sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-image: url('../img/icon-instagram-sdac.png');
+}
+.sdac-tiepp-cq-rbsml-item-linkedin .sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-image: url('../img/icon-linkedin-sdac.png');
+}
+.sdac-tiepp-cq-rbsml-item-houzz .sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-image: url('../img/icon-houzz-sdac.png');
+}
+.sdac-tiepp-cq-rbsml-item-pinterest .sdac-tiepp-cq-rbsml-item-lb-logo {
+  background-image: url('../img/icon-pinterest-sdac.png');
+  height: 28px;
+}
+.sdac-tiepp-cq-rbsml-item-lb-button {
+  align-items: center;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  width: 105px;
+}
+.sdac-tiepp-cq-rbsml-item-lb-button button {
+  background-color: transparent;
+  background-image: url('../img/icon-right-arrow-next-white.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  color: #fff;
+  height: 28px;
+  width: 50px;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualification_Review by Zillow - 1 */
+.sdac-tiepp-cqc-rszh-title {
+  color: #44646B;
+  flex: 0 0 245px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-rszh-subtitle {
+    align-self: flex-end;
+    color: #373737;
+    flex: 1 1 auto;
+    font-family: inherit;
+    font-size: .8rem;
+    font-weight: 500;
+}
+.sdac-tiepp-cqc-rs-review-by-zillow-1 {
+  background-color: #275AFF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 20px 70px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz1h-title {
+  color: #fff;
+  flex: 0 0 195px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sdac-tiepp-cqc-rs-rbsmh-subtitle {
+  color: #fff;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.sdac-tiepp-cqc-rs-rbz1-back-button {
+  height: 30px;
+  width: 235px;
+}
+.sdac-tiepp-cqc-rs-rbz1-back-button button {
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../img/icon-arrow-back-white.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  height: 100%;
+  padding: 0 0 0 50px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz1-title {
+  color: #fff;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-rbz1-search {
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz1-search input {
+  background-color: #527BFF;
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #E9EEFF;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100%;
+  outline: none;
+  padding: 0 20px 0 25px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz1-search button {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 300;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+.sdac-tiepp-cqc-rs-rbz1-customer-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 -10px;
+}
+.sdac-tiepp-cqc-rs-rbz1-cl-item {
+  margin: 10px 0 0 10px;
+}
+.sdac-tiepp-cqc-rs-rbz1-cl-item button {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 40px;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualification_Review by Zillow */
+.sdac-tiepp-cqc-rs-review-by-zillow {
+  background-color: #275AFF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 0 70px 20px;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz-zillow-type-list {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 180px);
+  grid-auto-rows: 50px;
+}
+.sdac-tiepp-cqc-rs-rbz-ztl-item button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-arrow-right-blue.png');
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #275AFF;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 0 15px 0 0;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.sdac-tiepp-cqc-rs-rbz-zillow-horizontal-line {
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualify_Review Social Media_Facebook */
+.sdac-tiepp-cqr-social-media-facebook {
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 15px 70px 20px;
+  width: 100%;
+}
+.sdac-tiepp-cqr-smf-button-title {
+  align-items: center;
+  display: flex;
+}
+.sdac-tiepp-cqr-smf-bt-review-button {
+  height: 30px;
+  width: 240px;
+}
+.sdac-tiepp-cqr-smf-bt-review-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 10px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 100%;
+  padding: 0 0 0 30px;
+  width: 100%;
+}
+.sdac-tiepp-cqr-smf-bt-title {
+  color: #949494;
+  flex: 0 0 85px;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  margin: 0 0 0 10px;
+}
+.sdac-tiepp-cqr-smf-bt-subtitle {
+  color: #474747;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.sdac-tiepp-cqr-smf-facebook-customer-list-container {
+  background-color: #315FAF;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 570px;
+  width: 100%;
+}
+.sdac-tiepp-cqr-smf-customer-list {
+  display: flex;
+  flex-direction: column;
+}
+.sdac-tiepp-cqr-smf-cl-header {
+  align-items: center;
+  display: flex;
+  padding: 17px 19px 0;
+}
+.sdac-tiepp-cqr-smf-clh-title {
+  color: #fff;
+  flex: 0 0 85px;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  margin: 0 0 0 15px;
+}
+.sdac-tiepp-cqr-smf-clh-subtitle {
+  color: #fff;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqr-smf-cl-search {
+  height: 40px;
+  padding: 0 19px 0;
+  position: relative;
+  width: 100%;
+}
+.sdac-tiepp-cqr-smf-cl-search input {
+  background-color: rgba(255, 255, 255, .2);
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 100%;
+  outline: none;
+  padding: 0 20px 0 25px;
+  width: 100%;
+}
+.sdac-tiepp-cqr-smf-cl-search button {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 300;
+  height: 30px;
+  position: absolute;
+  right: 40px;
+  top: 5px;
+}
+
+.sdac-tiepp-cqr-smf-cl-customer-list-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 0 19px;
+}
+.sdac-tiepp-cqr-smf-cl-customer-list {
+  display: grid;
+  grid-column-gap: 26px;
+  grid-row-gap: 12px;
+  grid-auto-columns: 255px;
+  grid-template-rows: repeat(8, 40px);
+  grid-auto-flow: column;
+  overflow: scroll;
+  padding: 0 0 20px;
+}
+.sdac-tiepp-cqr-smf-cl-cl-item {
+  height: 40px;
+  width: 255px;
+}
+.sdac-tiepp-cqr-smf-cl-cl-item button {
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../img/icon-right-arrow-next-white.png');
+  background-position: right 15px center;
+  background-repeat: no-repeat;
+  border: 1px solid #F2F5FA;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  height: 100%;
+  padding: 0 30px 0 15px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualify_Review Social Media_Houzz */
+.sdac-tiepp-cqr-smf-houzz-customer-list-container {
+  background-color: #63D366;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 570px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualify_Review Social Media_Instagram */
+.sdac-tiepp-cqr-smf-instagram-customer-list-container {
+  background: #f09433;
+  background: -moz-linear-gradient(30deg, #F57635 0%,#DA3969 25%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  background: -webkit-linear-gradient(45deg, #F57635 0%,#DA3969 25%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  background: linear-gradient(75deg, #F57635 0%, #F35B4A 15%,#DA3969 30%,#AF3579 50%,#643093 75%,#3377C8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 570px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualify_Review Social Media_LinkedIn */
+.sdac-tiepp-cqr-smf-linkedin-customer-list-container {
+  background-color: #258CD8;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 570px;
+  width: 100%;
+}
+
+
+/* Service Dash_Action Center_Today Important Event_Proposal Pathway_Customer Qualify_Review Social Media_Pinterest */
+.sdac-tiepp-cqr-smf-pinterest-customer-list-container {
+  background-color: #E52E2E;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 570px;
+  width: 100%;
+}
+
+
+/* Customer Dash_Action Center_Proposal Pathway_Review by Social Media */
+.cdac-pp-review-by-social-media .sdac-tiepp-cqh-search-action-task {
+  flex: 1 1 auto;
+}
+
+.cdac-pprbsm-content {
+  background-color: #fff;
+  display: flex;
+  height: 100%;
+  margin: 25px 0 0;
+  position: relative;
+}
+.cdac-pprbsm-left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 280px
+}
+.cdac-pprbsmls-action-center-button {
+  height: 40px;
+  width: 180px;
+}
+.cdac-pprbsmls-action-center-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 100%;
+  padding: 0 0 0 45px;
+  width: 100%;
+}
+.cdac-pprbsmls-title {
+  color: #656565;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0 30px;
+}
+.cdac-pprbsmls-proposal-pathway-icon {
+  margin: 0 0 0 30px;
+}
+.cdac-pprbsmls-proposal-pathway-button {
+  height: 60px;
+  margin: 0 0 0 30px;
+  width: 150px;
+}
+.cdac-pprbsmls-proposal-pathway-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 20px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 100%;
+  padding: 0 0 0 50px;
+  width: 100%;
+}
+.cdac-pprbsmls-customer-qualification {
+  color: #656565;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0 30px;
+}
+.cdac-pprbsmls-customer-qualification-review {
+  color: #8BB0B1;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0 30px;
+}
+.cdac-pprbsmls-customer-qualification-button {
+  height: 60px;
+  margin: 0 0 0 30px;
+  width: 160px;
+}
+.cdac-pprbsmls-customer-qualification-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 100%;
+  padding: 0 0 0 45px;
+  text-align: left;
+  width: 100%;
+}
+
+.cdac-pprbsm-content-right-side {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  margin: 0 0 0 10px;
+  padding: 15px;
+}
+.cdac-pprbsm-crs-breadcrumb {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.cdac-pprbsm-crsb-link {
+  color: #7A7A7A;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.cdac-pprbsm-crsb-link button {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.cdac-pprbsm-crsb-divider {
+  height: 24px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.cdac-pprbsm-crs-review-by-social-media {
+  background-color: #fff;
+  border: 1px solid #E1E1E1;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+.cdac-pprbsm-crs-rbsm-header {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.cdac-pprbsm-crs-rbsmh-title {
+  color: #929292;
+  flex: 1 1 auto;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 20px;
+}
+.cdac-pprbsm-crs-rbsmh-subtitle-search {
+  align-items: flex-end;
+  display: flex;
+  height: 35px;
+  width: 100%;
+}
+.cdac-pprbsm-crs-rbsmh-ss-subtitle {
+  color: #8BB0B1;
+  flex: 0 1 470px;
+  font-family: inherit;
+  font-size: .8rem;
+  font-weight: 500;
+}
+.cdac-pprbsm-crs-rbsmh-ss-search {
+  height: 35px;
+  width: 100%;
+}
+.cdac-pprbsm-crs-rbsmh-ss-search input {
+  background-color: #fff;
+  border: 1px solid #E1E1E1;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #929292;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 400;
+  height: 100%;
+  outline: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+
+/* Customer Dash_Action Center_Proposal Pathway_Review by Social Media_Facebook */
+.sdac-tiepp-cqr-smf-cl-back-to-review-by-social-media-button {
+  height: 35px;
+  width: 285px;
+}
+.sdac-tiepp-cqr-smf-cl-back-to-review-by-social-media-button button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-back-dark.png');
+  background-position: 20px;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #7A7A7A;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 500;
+  height: 100%;
+  padding: 0 0 0 50px;
+  width: 100%;
+}
+.cdac-pp-review-by-social-media .sdac-tiepp-cqr-smf-cl-customer-list {
+  grid-column-gap: 13px;
+}
+
+
+/* Customer Dash_Action Center_Proposal Pathway_CQ_Review by Zillow_Townhome */
+.cdac-ppcqrbzt-back-to-zillow-record-button {
+  height: 30px;
+  width: 235px;
+}
+.cdac-ppcqrbzt-back-to-zillow-record-button button {
+  align-items: center;
+  background-color: transparent;
+  background-image: url('../img/icon-arrow-back-white.png');
+  background-position: 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 100%;
+  padding: 0 0 0 45px;
+  width: 100%;
+}
+.cdac-ppcqrbzt-zillow-type-title {
+  color: #fff;
+  font-family: inherit;
+  font-size: .8rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-rbz-zillow-type-list .active button {
+  background-image: unset;
+  justify-content: center;
+  padding: 0;
+}
+.sdac-tiepp-cqc-rs-rbz-zillow-type-list .inactive {
+  opacity: .5;
+}
+.cdac-ppcqrbzt-owner-title {
+  color: #fff;
+  font-family: inherit;
+  font-size: .95rem;
+  font-weight: 400;
+}
+.sdac-tiepp-cqc-rs-review-by-zillow .sdac-tiepp-cqr-smf-cl-search {
+  padding: 0 19px 0 0;
+}
+
+
+/* Customer Dash_Action Center_Proposal Pathway_CQ_Review by Zillow_By Home Value */
+.sdac-tiepp-cqc-rs-rbz-zillow-value-list {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 180px);
+  grid-auto-rows: 30px;
+}
+.sdac-tiepp-cqc-rs-rbz-zvl-item button {
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../img/icon-arrow-right-blue.png');
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  border: 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #275AFF;
+  display: flex;
+  font-family: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 0 15px 0 0;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.sdac-tiepp-cqc-rs-rbz-zillow-value-list .inactive {
+  opacity: .5;
+}
